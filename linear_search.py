@@ -1,6 +1,7 @@
 # Linear search algorithm
 # @ra1ski
 
+
 def linear_search(item, _list):
     index = None
 
@@ -18,7 +19,7 @@ if __name__ == '__main__':
     foundIndex = linear_search(item, _list)
 
     if foundIndex is not None:
-        print('Item is in the list. Index: %s' % (foundIndex))
+        print('Item is in the list. Index: %d. Iterations: %d' % (foundIndex, foundIndex))
     else:
         _list.append(item)
         print('Item is not in the list, but we appened it for you', _list)
