@@ -54,6 +54,4 @@ if __name__ == '__main__':
     if index:
         print("value {0} found in searchData[{1}]".format(searchValue, index))
     else:
-        print("value not found");
-
-
+        print("value not found")
